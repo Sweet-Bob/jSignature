@@ -392,9 +392,9 @@ mourner.github.com/simplify-js
 		
 		answer.push(
 			'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="'+ 
-			sizex.toString() +
-			'" height="'+ 
-			sizey.toString() +
+			Math.round(sizex).toString() +
+			'" height="'+
+			Math.round(sizey).toString() +
 			'">'
 		)
 		
